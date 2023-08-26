@@ -1,2 +1,2 @@
-# Tratando conflitos
-Mensagem antes do clone
+# Tratando conflitos alteração no local
+Depois do clone
