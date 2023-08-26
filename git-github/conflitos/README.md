@@ -1,2 +1,2 @@
-# Tratando conflitos
-Mensagem antes do clone
+# Tratando conflitos (repostiório remoto depois do clone)
+Mensagem depois do clone
