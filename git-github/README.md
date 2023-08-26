@@ -9,3 +9,10 @@ repositório para armazenar resumos sobre Git e GitHub [link DIO](https://www.di
 ## 💻 Resumo das aulas
 | Aulas | Resumos |
 |------|---------|
+
+```
+git init
+```
+
+## Referências
+- [DIO]()
