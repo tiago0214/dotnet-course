@@ -1,3 +1,3 @@
-# Tratando conflitos alteração no local
-Depois do clone
+# Fazer alteração por fora
+
 
