@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-ol.pokemons{
+.pokemons{
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
@@ -19,7 +19,7 @@ ol.pokemons{
     padding: 0;
 }
 
-ol.pokemons li{
+.pokemon{
     display: flex;
     flex-direction: column;
     margin: .5rem;
@@ -33,4 +33,5 @@ ol.pokemons li{
 ol.pokemons li img {
     max-width: 100%;
     width: 100px;
+
 }
