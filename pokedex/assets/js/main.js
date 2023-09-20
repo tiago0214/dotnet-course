@@ -25,8 +25,6 @@ function loadPokemonsItens (offset, limit) {
             ).join('')
             pokemonList.innerHTML += newHtml
         })
-
-    
 }
 
 loadPokemonsItens(offset,limit)
@@ -45,6 +43,5 @@ loadMoreButton.addEventListener('click',() => {
     }else{
         loadPokemonsItens(offset,limit)
     }
-    
 })
     
