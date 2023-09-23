@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card {
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+
+}
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .card .cardRight img {
+    width: 310px;
+}
