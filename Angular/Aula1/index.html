@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/Angular/Aula1/style/card.css">
+    <script src="/Angular/Aula1/src/components/cardNews.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -13,13 +14,16 @@
 
             <div class="cardLeft">
                 <span>Tiago Souza</span>
-                <h1>Darth Vade contrata devs</h1>
+                <a href="#">Darth Vade contrata devs</a>
                 <p>Darth vader procura desenvolvedores que sabem trabalhar com componentização.</p>
             </div>
             <div class="cardRight">
                 <img src="/Angular/Aula1/assets/darth-vader_5yvm.1200.webp" alt="">
             </div>
         </div>
+
+        <card-news></card-news> <!-- o nome da tag a gente chama de selector-->
+        
     </div>
 </body>
 </html>
