@@ -6,7 +6,8 @@ class TituloDinamico extends HTMLElement {
 
         //base do componente----------------------------------
         const componentRoot = document.createElement('h1')
-        componentRoot.textContent = 'Tiago'
+        componentRoot.textContent = this.getAttribute("titulo") //criei uma props : com o nome titulo. e o textContent vem dinâmico dela.
+        //componente é so daqui até lá em cima... que fala sobre os elementos. Ou seja, aqui eu so tenho 1. O componentRoot.
 
         //estilazação-----------------------------------------
         const style = document.createElement('style')
