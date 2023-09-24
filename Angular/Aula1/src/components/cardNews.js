@@ -3,6 +3,7 @@ class CardNews extends HTMLElement {      //extends : significa que ele vai se c
         super();
 
         const shadow = this.attachShadow({mode:"open"}) //(mode: open) outra classe possa influenciar nessa. (closed) encapsula.
+        //o shadow ai de cima: siginfica a minha arvore
         shadow.innerHTML= "<h1>Hello Word</h1>"
     }
 }
@@ -11,3 +12,6 @@ class CardNews extends HTMLElement {      //extends : significa que ele vai se c
 
 customElements.define('card-news',CardNews)
 //estou criando um elemento customizado, e estou definando que ele vai ser utilizado atraves desse seletor(card-news), e CardNews é o metodo construtor dele
+
+
+//isso aqui é um componente
