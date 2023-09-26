@@ -31,7 +31,8 @@ class Cardnewsprof extends HTMLElement {
         cardRight.setAttribute("class","card-right")
 
         const newsImage = document.createElement('img')
-
+        newsImage.src = this.getAttribute("photo") || '/Angular/Aula1/assets/default-profile.png'
+        newsImage.alt = "Foto da noticia"
         cardRight.appendChild(newsImage)
 
         componentRoot.appendChild(cardLeft)
