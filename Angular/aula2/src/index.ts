@@ -109,6 +109,7 @@ interface robot2 {
 
 //outra coisa, type geralmente usado: para tipar os tipos de uma variavel.
 //interface, geralmente usado para quando for a respeito de classes.
+//classes é como se fosse um molde.
 
 
 //posso colocar uma propriedade readonly, ou seja, eu não posso mais mudar o valor da minha propriedade.
@@ -119,12 +120,33 @@ type robot3 = {
 interface robot5 {
     readonly id:number | string;
     name:string;
+    sayHello():string
 }
 
 const bot2:robot5 = {
     id:1,
-    name:"Coisa"
+    name:"Coisa",
+    sayHello(){return ""}
 }
 // bot2.id = 2; Não posso fazer isso: por causa do readonly
 bot2.name = "dois" 
 // se não tivesse essa propriedade, eu poderia mudar o valor das minhas variaveis criadas, com base no type e interface.
+
+//criar uma class
+
+class Pessoa implements robot5 {
+    id: string | number;
+    name: string;
+
+    constructor(id:string|number, name:string) {
+        this.id = id,
+        this.name = name
+    }
+    sayHello(): string {
+        return `Olá ${this.name}`
+    }
+}
+
+const p = new Pessoa(1,"Megaman")
+
+console.log(p.sayHello())
