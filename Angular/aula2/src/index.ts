@@ -150,3 +150,50 @@ class Pessoa implements robot5 {
 const p = new Pessoa(1,"Megaman")
 
 console.log(p.sayHello())
+
+//classes
+
+class character {
+    name?: string;
+    stregth?: number;
+    skill:number;
+
+    attack():void{
+        console.log(`Atacou`)
+    }
+
+    constructor(name:string,stregth:number,skill:number){
+        this.name=name;
+        this.stregth= stregth;
+        this.skill = skill;
+    }
+}
+// ? quer dizer que pode ter ou não a propriedade.
+//retorno:void (quer dizer que ele não exibir nada para outras funções)
+
+const p1 = new character("Tiago",29,100)
+
+console.log(p1)
+
+//data modifiers : é quem pode acessar um determinado dado da classe.
+
+class magician extends character {
+    magicianPoints: number;
+
+    constructor(name:string, stregth:number,skill:number,magicianPoints:number){
+        super(name,stregth,skill)
+        this.magicianPoints = magicianPoints
+    }
+
+
+}
+const p3 = new magician("Mago",2,40,100)
+
+console.log(p3)
+
+//extends : é para herdar : vou precisar do super()
+//o metodo super() é para invocar o construtor da minha classe pai.
+//classe Pai = superclass
+//classe filha = subclass
+
+//mesmo se eu tivesse definido os atributos como privited, eu poderia acessa-los , por meio do construtor. super() 

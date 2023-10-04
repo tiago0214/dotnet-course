@@ -94,3 +94,31 @@ class Pessoa {
 }
 const p = new Pessoa(1, "Megaman");
 console.log(p.sayHello());
+//classes
+class character {
+    attack() {
+        console.log(`Atacou`);
+    }
+    constructor(name, stregth, skill) {
+        this.name = name;
+        this.stregth = stregth;
+        this.skill = skill;
+    }
+}
+// ? quer dizer que pode ter ou não a propriedade.
+//retorno:void (quer dizer que ele não exibir nada para outras funções)
+const p1 = new character("Tiago", 29, 100);
+console.log(p1);
+//data modifiers : é quem pode acessar um determinado dado da classe.
+class magician extends character {
+    constructor(name, stregth, skill, magicianPoints) {
+        super(name, stregth, skill);
+        this.magicianPoints = magicianPoints;
+    }
+}
+const p3 = new magician("Mago", 2, 40, 100);
+console.log(p3);
+//extends : é para herdar : vou precisar do super()
+//o metodo super() é para invocar o construtor da minha classe pai.
+//classe Pai = superclass
+//classe filha = subclass
