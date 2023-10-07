@@ -58,7 +58,7 @@ info.map(()=>{});
 //datas.
 
 let aniversario:Date = new Date("8/16/2023 14:30")
-console.log(aniversario.toString()) //toString() fica melhor de visualizar a data.
+//console.log(aniversario.toString()) //toString() fica melhor de visualizar a data.
 
 //funções
 
@@ -149,7 +149,7 @@ class Pessoa implements robot5 {
 
 const p = new Pessoa(1,"Megaman")
 
-console.log(p.sayHello())
+//console.log(p.sayHello())
 
 //classes
 
@@ -173,7 +173,7 @@ class character {
 
 const p1 = new character("Tiago",29,100)
 
-console.log(p1)
+//console.log(p1)
 
 //data modifiers : é quem pode acessar um determinado dado da classe.
 
@@ -189,7 +189,7 @@ class magician extends character {
 }
 const p3 = new magician("Mago",2,40,100)
 
-console.log(p3)
+//console.log(p3)
 
 //extends : é para herdar : vou precisar do super()
 //o metodo super() é para invocar o construtor da minha classe pai.
@@ -197,3 +197,69 @@ console.log(p3)
 //classe filha = subclass
 
 //mesmo se eu tivesse definido os atributos como privited, eu poderia acessa-los , por meio do construtor. super() 
+
+//concatenar dois array. (generics)
+
+function concatenar (...itens:any[]):any[] {
+    return new Array().concat(...itens)
+}
+
+const numArray = concatenar([1,5],[3])
+numArray.push('Olá')
+//console.log(numArray)
+//essa parte do código esta quebrada. porque eu consigo dar .push('asdasd') porque esta com o retorno de any, eu posso fazer qualquer coisa
+//so que eu posso arrumar, colocando na função um retorno generico, e eu delimito qual é o retorno que eu quero na minha variavel.
+
+function concatenar2<T> (...inte:T[]):T[]{
+    return new Array().concat(...inte);
+}
+
+const num = concatenar2<number[]>([2,3],[6])
+//console.log(num)
+//agora, dentro da minha variavel, só vai caber numeros, e se eu tentar fazer .push('asda') da erro.
+
+//decorators
+
+function teste (target:any) {
+    console.log(target)
+}
+
+// const a: string = "Alou você, decoretors na area "
+//@teste
+class func {}
+//decorators: Não funciona em tudo. Acredito que somente em class
+
+//fazer mais decoretors,uteis.
+
+
+
+function apiVersion (version:string) {
+    return (target:any) => {
+        Object.assign(target.prototype, {__version: version})
+    }
+    //facotory, uma função que vai retornar outra função.
+}
+//propriedade injetada pelo decorators
+@apiVersion("1.30")
+class api {}
+
+const prot = new api();
+console.log(prot.__version)
+
+//atribute  decoretors : coloca em cima de uma propriedade
+
+class API {
+    name:string;
+    
+    constructor(name:string){
+        this.name = name;
+    }
+}
+
+const AP = new API("produtos")
+
+function miniLength (length:number) {
+    return (target:any , key:string) => {   
+         let value = target[key]
+    }
+}
