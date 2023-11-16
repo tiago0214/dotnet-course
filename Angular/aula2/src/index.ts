@@ -241,25 +241,47 @@ function apiVersion (version:string) {
 }
 //propriedade injetada pelo decorators
 @apiVersion("1.30")
-class api {}
+class apii {}
 
-const prot = new api();
+const prot = new apii();
 console.log(prot.__version)
 
 //atribute  decoretors : coloca em cima de uma propriedade
 
+
+function miniLength (length:number) {
+    return (target:any , key:string) => {   
+         let _value = target[key]
+
+         const getter = ()=> "[play]" + _value
+         const setter = (value:string) => {
+            if (value.length < length) {
+                throw new Error(`Valor mínimo ${length}`);
+            }else {
+                _value = value;
+            }
+            }
+                Object.defineProperty(target,key,{
+                get:getter,
+                set:setter,
+                })
+         
+    }
+}
 class API {
+    @miniLength(20)
     name:string;
     
     constructor(name:string){
         this.name = name;
     }
 }
+const AP = new API("prs")
+console.log(AP.name)
 
-const AP = new API("produtos")
+//se atentar aqui, que eu estou subistituindo os metodos que estão por baixo dos panos, quando eu tento ler e definir um valor dentro de uma propriedade.
+//lembrar dar propriedades(chaves), key(valor)
+//estou fazendo uma coisa totalmente nova, eu poderia colocar para dizer algo, toda vez que a propriedade for lida.
 
-function miniLength (length:number) {
-    return (target:any , key:string) => {   
-         let value = target[key]
-    }
-}
+
+
