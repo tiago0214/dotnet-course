@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tiago\\dev\\dotnet-rocket\\HelloWord\\",
+  "WorkspaceRootPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|c:\\users\\tiago\\dev\\dotnet-rocket\\helloword\\helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\helloword\\helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|c:\\users\\tiago\\dev\\dotnet-rocket\\helloword\\helloword\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\helloword\\helloword\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\helloword\\helloword\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EFA0D4F-208F-4A22-ACA1-C365D4B914C7}|HelloWord\\HelloWord.csproj|solutionrelative:helloword\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-rocket\\HelloWord\\HelloWord\\test.cs",
-              "RelativeDocumentMoniker": "HelloWord\\test.cs",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-rocket\\HelloWord\\HelloWord\\test.cs",
-              "RelativeToolTip": "HelloWord\\test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Cor.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\HelloWord\\Cor.cs",
+              "RelativeDocumentMoniker": "HelloWord\\Cor.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\HelloWord\\Cor.cs",
+              "RelativeToolTip": "HelloWord\\Cor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:45:34.126Z"
+              "WhenOpened": "2024-11-10T13:09:08.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\HelloWord\\Carro.cs",
+              "RelativeDocumentMoniker": "HelloWord\\Carro.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\HelloWord\\Carro.cs",
+              "RelativeToolTip": "HelloWord\\Carro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:07:59.585Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-rocket\\HelloWord\\HelloWord\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\HelloWord\\Program.cs",
               "RelativeDocumentMoniker": "HelloWord\\Program.cs",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-rocket\\HelloWord\\HelloWord\\Program.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\HelloWord\\HelloWord\\Program.cs",
               "RelativeToolTip": "HelloWord\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T19:50:23.046Z",
               "EditorCaption": ""

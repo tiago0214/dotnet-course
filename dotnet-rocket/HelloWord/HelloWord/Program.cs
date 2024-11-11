@@ -4,39 +4,67 @@ namespace HelloWord;
 
 public class Program
 {
-    enum NivelDeDificuldade
-    {
-        Baixo = 10,
-        Medio = 20,
-        Alto = 30
-    }
-
     public static void Main()
     {
+        string nome = "Tiago";
 
-        NivelDeDificuldade monstro = NivelDeDificuldade.Baixo;
+        if(nome == "Tiag")
+        {
+            Console.WriteLine(true);
+        }
 
-        int monstroNumber = (int)monstro;
-
-        Console.WriteLine(monstro.GetType());
-        Console.WriteLine(monstroNumber);
-
-
-
-
-        //string t = "alo";
-        //String t1 = new String("texto");
-
-        //StringBuilder stringBuild = new StringBuilder();
-        //stringBuild.Append(t);
-        //stringBuild.Append(t1);
-
-        //Console.WriteLine(stringBuild.ToString());
-
-        //string texto = "Esse texto {0} {1} não sei";
-
-        //string resultado = string.Format(texto, "Tem algo,", "que");
-
-        //Console.WriteLine(resultado); 
     }
+
+    //var carro = new Carro { 
+    //    Cor = Cor.Cinza,
+    //    Modelo = "Lamborghini",
+    //    LancadoEm = new DateOnly(2020,02,10)
+    //};
+
+    //carro.NomeDoModelo();
+
+    //var matematica = new Matematica();
+
+    //(int? resultado,string autor) = matematica.OperacaoMatematica(valor2:null);
+
+    //Console.WriteLine(resultado);
+    //Console.WriteLine(autor);
+
+    //int? idade = 30;
+
+    //bool minhaIdade = idade.HasValue;
+
+    //Console.WriteLine(idade);
+
+
+
+    //NivelDeDificuldade monstro = NivelDeDificuldade.Baixo;
+
+    //int monstroNumber = (int)monstro;
+
+    //Console.WriteLine(monstro);
+    //Console.WriteLine(monstroNumber);
+
+
+    //string t = "alo";
+    //String t1 = new String("texto");
+
+    //StringBuilder stringBuild = new StringBuilder();
+    //stringBuild.Append(t);
+    //stringBuild.Append(t1);
+
+    //Console.WriteLine(stringBuild.ToString());
+
+    //string texto = "Esse texto {0} {1} não sei";
+
+    //string resultado = string.Format(texto, "Tem algo,", "que");
+
+    //Console.WriteLine(resultado); 
+}
+
+enum NivelDeDificuldade
+{
+    Baixo = 10,
+    Medio = 20,
+    Alto = 30
 }
