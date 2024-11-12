@@ -6,18 +6,28 @@ public class Program
 {
     public static void Main()
     {
-        int numero = 10;
-
-        string resultado = numero switch
+        Dictionary<string,string> dic = new Dictionary<string,string>();
+        dic.Add("k1", "valor 1");
+        dic.Add("k2", "valor 2");
+        dic.Add("k3", "valor 3");
+        
+        foreach (KeyValuePair<string,string> key in dic)
         {
-            7 => "Tiago",
-            8 => "Shara",
-            9 => "Camille",
-            _ => "Desconhecido"
-        };
-
-        Console.WriteLine(resultado);
+            Console.WriteLine(key);
+        }
     }
+
+    //int numero = 10;
+
+    //string resultado = numero switch
+    //{
+    //    7 => "Tiago",
+    //    8 => "Shara",
+    //    9 => "Camille",
+    //    _ => "Desconhecido"
+    //};
+
+    //Console.WriteLine(resultado);
 
     //var carro = new Carro { 
     //    Cor = Cor.Cinza,
