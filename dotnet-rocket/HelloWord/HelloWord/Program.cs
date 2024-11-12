@@ -6,13 +6,17 @@ public class Program
 {
     public static void Main()
     {
-        string nome = "Tiago";
+        int numero = 10;
 
-        if(nome == "Tiag")
+        string resultado = numero switch
         {
-            Console.WriteLine(true);
-        }
+            7 => "Tiago",
+            8 => "Shara",
+            9 => "Camille",
+            _ => "Desconhecido"
+        };
 
+        Console.WriteLine(resultado);
     }
 
     //var carro = new Carro { 
