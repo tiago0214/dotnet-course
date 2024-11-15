@@ -8,9 +8,18 @@ namespace MyFirstApi.Controllers;
 public class UserController : ControllerBase // herança aqui, somente para usar as funções já prontos
 {
     [HttpGet]
-    public IActionResult Get()
+    [Route("{id}")]
+    [ProducesResponseType(typeof(Response), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+    public IActionResult Get(int id)
     {
-        return Ok("Tiago");
+        var response = new Response
+        {
+            Age = 30,
+            Name = "Tiago"
+        };
+
+        return Ok(response);
     }
 
 }
@@ -37,3 +46,6 @@ public class UserController : ControllerBase // herança aqui, somente para usar
 // Não se esqueça, eu utilizo os metodos prontos para retorno por exemplo o Ok(), somente porque ele monta tudo para mim, por exemplo o header
 // e toda transmição de dado e conversão para JSON e outras coisas, eu consigo fazer tudo na mão. Mas ai eu vou ter que escrever tudo. O retorno do metodo Ok,
 // é somente para facilitar. Porque eu somente retorno o body da resposta.
+
+// O que me pegou , foi o fato de eu estar definindo classes e não executando nada. Estou deixando parada. Mas na real é porque o ASP.NET esta fazendo
+//tudo para mim. Ele esta usando reflection, porque ele é uma lib. Para pegar as minhas classes e execução dos meus métodos.

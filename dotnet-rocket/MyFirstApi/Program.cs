@@ -30,8 +30,9 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-// é aqui que ele mapea as rotas com base nos controllers, por isso eu não precisso usar o MapGet("/rota"), porque aqui ele usar os controllers do 
-//meu programa que foram adicionados das minhas classes.
+// é aqui que ele mapea as rotas com base nos controllers para adicionar os metodos das rotas, por isso eu não precisso usar o MapGet("/rota",()=>{}),
+// porque aqui ele usar os controllers do meu programa que foram adicionados das minhas classes.
+// porque o mapeamento das funções das rotas só é possivel depois do servidor configurado e criado.
 
 // lembrar do projeto minimal API, lá eu precisei fazer igual os frameworks JS, preciso app.MapGet('/',()=>{}), ou seja. Eu não preciso fazer isso aqui
 //porque o ASP.NET leu toda as minhas classes com o builder.Services.AddControllers(); lá em cima, e aqui ele fez os mapeamentos em quais funcões 
