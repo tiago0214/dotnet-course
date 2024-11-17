@@ -4,9 +4,8 @@ using MyFirstApi.Cummunication.Requests;
 using MyFirstApi.Cummunication.Response;
 
 namespace MyFirstApi.Controllers;
-[Route("api/[controller]")]
-[ApiController]
-public class UserController : ControllerBase
+
+public class UserController : MyFirstApiBaseController
 {
     [HttpGet]
     [Route("{id}")]
@@ -64,7 +63,10 @@ public class UserController : ControllerBase
         return Ok(response);
     }
 
-    [HttpPut]
-    [ProducesResponseType(StatusCode = StatusCodes.Status204NoContent)]
-
+    [HttpPut("change-password")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult ChangePassword([FromBody] RequestUserChangePassword request)
+    {
+        return NoContent();
+    }
 }

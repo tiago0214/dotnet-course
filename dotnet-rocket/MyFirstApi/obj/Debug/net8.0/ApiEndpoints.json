@@ -1,8 +1,18 @@
 [
   {
+    "ContainingType": "MyFirstApi.Controllers.DevicesController",
+    "Method": "Get",
+    "RelativePath": "api/devices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyFirstApi.Controllers.UserController",
     "Method": "CreateUser",
-    "RelativePath": "api/User",
+    "RelativePath": "api/user",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +38,7 @@
   {
     "ContainingType": "MyFirstApi.Controllers.UserController",
     "Method": "Update",
-    "RelativePath": "api/User",
+    "RelativePath": "api/user",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -54,27 +64,23 @@
   {
     "ContainingType": "MyFirstApi.Controllers.UserController",
     "Method": "Delete",
-    "RelativePath": "api/User",
+    "RelativePath": "api/user",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyFirstApi.Cummunication.Requests.RequestUserRegister",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 204
       }
     ]
   },
   {
     "ContainingType": "MyFirstApi.Controllers.UserController",
-    "Method": "GetAllUser",
-    "RelativePath": "api/User",
+    "Method": "GetAll",
+    "RelativePath": "api/user",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -87,14 +93,14 @@
           "application/json",
           "text/json"
         ],
-        "StatusCode": 204
+        "StatusCode": 200
       }
     ]
   },
   {
     "ContainingType": "MyFirstApi.Controllers.UserController",
     "Method": "GetById",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -123,6 +129,28 @@
           "text/json"
         ],
         "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/user/change-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MyFirstApi.Cummunication.Requests.RequestUserChangePassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
       }
     ]
   }
