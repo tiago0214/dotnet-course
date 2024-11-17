@@ -1,8 +1,100 @@
 [
   {
     "ContainingType": "MyFirstApi.Controllers.UserController",
-    "Method": "Get",
-    "RelativePath": "api/user/{id}",
+    "Method": "CreateUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MyFirstApi.Cummunication.Requests.RequestUserRegister",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyFirstApi.Cummunication.Requests.RequestUserRegister",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MyFirstApi.Cummunication.Requests.RequestUserUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyFirstApi.Cummunication.Requests.RequestUserRegister",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MyFirstApi.Cummunication.Requests.RequestUserRegister",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MyFirstApi.User, MyFirstApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.UserController",
+    "Method": "GetById",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -15,7 +107,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyFirstApi.Response",
+        "Type": "MyFirstApi.User",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -24,7 +116,7 @@
         "StatusCode": 200
       },
       {
-        "Type": "System.String",
+        "Type": "MyFirstApi.User",
         "MediaTypes": [
           "text/plain",
           "application/json",

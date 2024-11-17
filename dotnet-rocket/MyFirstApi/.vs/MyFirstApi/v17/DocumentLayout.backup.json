@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A68BF67C-4CF1-4763-A4CE-229CC9F0BDA1}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68BF67C-4CF1-4763-A4CE-229CC9F0BDA1}|MyFirstApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A68BF67C-4CF1-4763-A4CE-229CC9F0BDA1}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68BF67C-4CF1-4763-A4CE-229CC9F0BDA1}|MyFirstApi.csproj|solutionrelative:response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\cummunication\\requests\\requestuserchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:cummunication\\requests\\requestuserchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A68BF67C-4CF1-4763-A4CE-229CC9F0BDA1}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68BF67C-4CF1-4763-A4CE-229CC9F0BDA1}|MyFirstApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\cummunication\\requests\\requestuserupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:cummunication\\requests\\requestuserupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\cummunication\\response\\responseuserregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:cummunication\\response\\responseuserregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\cummunication\\requests\\requestuserregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:cummunication\\requests\\requestuserregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Response.cs",
-              "RelativeDocumentMoniker": "Response.cs",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Response.cs",
-              "RelativeToolTip": "Response.cs",
+              "Title": "RequestUserChangePassword.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Requests\\RequestUserChangePassword.cs",
+              "RelativeDocumentMoniker": "Cummunication\\Requests\\RequestUserChangePassword.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Requests\\RequestUserChangePassword.cs",
+              "RelativeToolTip": "Cummunication\\Requests\\RequestUserChangePassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:35:38.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:36:46.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestUserUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Requests\\RequestUserUpdate.cs",
+              "RelativeDocumentMoniker": "Cummunication\\Requests\\RequestUserUpdate.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Requests\\RequestUserUpdate.cs",
+              "RelativeToolTip": "Cummunication\\Requests\\RequestUserUpdate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T00:54:44.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T18:43:55.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseUserRegister.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Response\\ResponseUserRegister.cs",
+              "RelativeDocumentMoniker": "Cummunication\\Response\\ResponseUserRegister.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Response\\ResponseUserRegister.cs",
+              "RelativeToolTip": "Cummunication\\Response\\ResponseUserRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:02:31.883Z"
             },
             {
               "$type": "Document",
@@ -45,23 +93,22 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:03:30.423Z",
+              "WhenOpened": "2024-11-16T12:58:55.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RequestUserRegister.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Requests\\RequestUserRegister.cs",
+              "RelativeDocumentMoniker": "Cummunication\\Requests\\RequestUserRegister.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Cummunication\\Requests\\RequestUserRegister.cs",
+              "RelativeToolTip": "Cummunication\\Requests\\RequestUserRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:52:33.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T13:04:02.587Z"
             }
           ]
         }
