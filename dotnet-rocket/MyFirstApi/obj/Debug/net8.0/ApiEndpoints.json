@@ -1,18 +1,22 @@
 [
   {
-    "ContainingType": "MyFirstApi.Controllers.DevicesController",
+    "ContainingType": "MyFirstApi.Controllers.DeviceController",
     "Method": "Get",
-    "RelativePath": "api/devices",
+    "RelativePath": "api/device",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.MyFirstApiBaseController",
+    "Method": "Healthy",
+    "RelativePath": "api/device/healthy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -159,5 +163,15 @@
         "StatusCode": 204
       }
     ]
+  },
+  {
+    "ContainingType": "MyFirstApi.Controllers.MyFirstApiBaseController",
+    "Method": "Healthy",
+    "RelativePath": "api/user/healthy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

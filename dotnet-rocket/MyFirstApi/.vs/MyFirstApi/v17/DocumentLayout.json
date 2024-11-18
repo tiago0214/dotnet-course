@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:controllers\\myfirstapibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|solutionrelative:controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CE1D3F8-8164-4FDC-96FE-E49C2855FA2C}|MyFirstApi.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\myfirstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Controllers\\MyFirstApiBaseController.cs",
               "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\MyFirstApiBaseController.cs",
               "RelativeToolTip": "Controllers\\MyFirstApiBaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T20:18:43.055Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T18:10:01.565Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "Entities\\Laptop.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:22:55.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T15:22:55.878Z"
             },
             {
               "$type": "Document",
@@ -87,12 +86,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DevicesController.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\DevicesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DevicesController.cs",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\DevicesController.cs",
-              "RelativeToolTip": "Controllers\\DevicesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeviceController.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\MyFirstApi\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "Controllers\\DeviceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T03:27:37.504Z",
               "EditorCaption": ""
