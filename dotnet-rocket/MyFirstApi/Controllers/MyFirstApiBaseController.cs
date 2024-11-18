@@ -6,4 +6,10 @@ namespace MyFirstApi.Controllers;
 [ApiController]
 public class MyFirstApiBaseController : ControllerBase
 {
+    
+    //[HttpGet]
+    //public IActionResult Get()
+    //{
+    //    Request.
+    //}
 }

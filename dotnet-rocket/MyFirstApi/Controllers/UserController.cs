@@ -35,7 +35,6 @@ public class UserController : MyFirstApiBaseController
         return Created(string.Empty, response);
     }
 
-
     [HttpPut]
     [ProducesResponseType(typeof(RequestUserRegister), StatusCodes.Status204NoContent)]
     public IActionResult Update([FromBody] RequestUserUpdate request)
