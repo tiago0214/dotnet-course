@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.application\\usecases\\pet\\getall\\getallpetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|solutionrelative:petfolio.application\\usecases\\pet\\getall\\getallpetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1340BE8-859C-4B8D-B54C-A842D50CAE1B}|Petfolio.API\\Petfolio.API.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1340BE8-859C-4B8D-B54C-A842D50CAE1B}|Petfolio.API\\Petfolio.API.csproj|solutionrelative:petfolio.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.application\\usecases\\pet\\getbyid\\getbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|solutionrelative:petfolio.application\\usecases\\pet\\getbyid\\getbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.application\\usecases\\pet\\deletebyid\\deletebyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|solutionrelative:petfolio.application\\usecases\\pet\\deletebyid\\deletebyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B1CF9A3-578B-44F9-9842-482BE40630B7}|Petfolio.Communication\\Petfolio.Communication.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.communication\\response\\responsepetjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{1B1CF9A3-578B-44F9-9842-482BE40630B7}|Petfolio.Communication\\Petfolio.Communication.csproj|solutionrelative:petfolio.communication\\response\\responseerrorsjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.application\\usecases\\pet\\getall\\getallpetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{458A3994-219A-4AC9-9232-259D1076CFC9}|Petfolio.Application\\Petfolio.Application.csproj|solutionrelative:petfolio.application\\usecases\\pet\\getall\\getallpetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B1CF9A3-578B-44F9-9842-482BE40630B7}|Petfolio.Communication\\Petfolio.Communication.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\petfolio\\petfolio\\petfolio.communication\\response\\responseallpetjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1CF9A3-578B-44F9-9842-482BE40630B7}|Petfolio.Communication\\Petfolio.Communication.csproj|solutionrelative:petfolio.communication\\response\\responseallpetjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "DeleteByIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Application\\UseCases\\Pet\\DeleteById\\DeleteByIdUseCase.cs",
+              "RelativeDocumentMoniker": "Petfolio.Application\\UseCases\\Pet\\DeleteById\\DeleteByIdUseCase.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Application\\UseCases\\Pet\\DeleteById\\DeleteByIdUseCase.cs",
+              "RelativeToolTip": "Petfolio.Application\\UseCases\\Pet\\DeleteById\\DeleteByIdUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:45:15.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ResponseShortPetJson.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Communication\\Response\\ResponseShortPetJson.cs",
               "RelativeDocumentMoniker": "Petfolio.Communication\\Response\\ResponseShortPetJson.cs",
@@ -54,12 +67,11 @@
               "RelativeToolTip": "Petfolio.Communication\\Response\\ResponseShortPetJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:33:44.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T20:33:44.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ResponsePetRegisterJson.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Communication\\Response\\ResponsePetRegisterJson.cs",
               "RelativeDocumentMoniker": "Petfolio.Communication\\Response\\ResponsePetRegisterJson.cs",
@@ -67,12 +79,11 @@
               "RelativeToolTip": "Petfolio.Communication\\Response\\ResponsePetRegisterJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:33:39.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T20:33:39.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ResponseErrorsJson.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Communication\\Response\\ResponseErrorsJson.cs",
               "RelativeDocumentMoniker": "Petfolio.Communication\\Response\\ResponseErrorsJson.cs",
@@ -80,25 +91,11 @@
               "RelativeToolTip": "Petfolio.Communication\\Response\\ResponseErrorsJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:33:26.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T20:33:26.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetByIdUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Application\\UseCases\\Pet\\GetById\\GetByIdUseCase.cs",
-              "RelativeDocumentMoniker": "Petfolio.Application\\UseCases\\Pet\\GetById\\GetByIdUseCase.cs",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Application\\UseCases\\Pet\\GetById\\GetByIdUseCase.cs",
-              "RelativeToolTip": "Petfolio.Application\\UseCases\\Pet\\GetById\\GetByIdUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:31:56.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ResponsePetJson.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Communication\\Response\\ResponsePetJson.cs",
               "RelativeDocumentMoniker": "Petfolio.Communication\\Response\\ResponsePetJson.cs",
@@ -106,31 +103,30 @@
               "RelativeToolTip": "Petfolio.Communication\\Response\\ResponsePetJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:14:14.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T20:14:14.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "GetAllPetUseCase.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Application\\UseCases\\Pet\\GetAll\\GetAllPetUseCase.cs",
               "RelativeDocumentMoniker": "Petfolio.Application\\UseCases\\Pet\\GetAll\\GetAllPetUseCase.cs",
               "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.Application\\UseCases\\Pet\\GetAll\\GetAllPetUseCase.cs",
               "RelativeToolTip": "Petfolio.Application\\UseCases\\Pet\\GetAll\\GetAllPetUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:44:03.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PetController.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.API\\Controllers\\PetController.cs",
               "RelativeDocumentMoniker": "Petfolio.API\\Controllers\\PetController.cs",
               "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\Petfolio\\Petfolio\\Petfolio.API\\Controllers\\PetController.cs",
               "RelativeToolTip": "Petfolio.API\\Controllers\\PetController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwEEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:13:31.917Z",
               "EditorCaption": ""
@@ -145,8 +141,7 @@
               "RelativeToolTip": "Petfolio.Communication\\Response\\ResponseAllPetJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:12:33.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:12:33.43Z"
             }
           ]
         }
