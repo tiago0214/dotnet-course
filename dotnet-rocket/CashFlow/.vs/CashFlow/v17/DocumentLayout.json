@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04B01031-7F24-4DB3-BAF4-E59968825FD2}|src\\CashFlow.API\\CashFlow.Api.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\cashflow\\src\\cashflow.api\\cashflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{04B01031-7F24-4DB3-BAF4-E59968825FD2}|src\\CashFlow.API\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\cashflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{33C0C444-D1F3-4422-8C70-7132F33E366D}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C0C444-D1F3-4422-8C70-7132F33E366D}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B01031-7F24-4DB3-BAF4-E59968825FD2}|src\\CashFlow.API\\CashFlow.Api.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B01031-7F24-4DB3-BAF4-E59968825FD2}|src\\CashFlow.API\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CashFlow.Api",
-              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\CashFlow.Api.csproj",
-              "RelativeDocumentMoniker": "src\\CashFlow.API\\CashFlow.Api.csproj",
-              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\CashFlow.Api.csproj",
-              "RelativeToolTip": "src\\CashFlow.API\\CashFlow.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-20T16:15:07.271Z",
+              "Title": "RegisterExpenseUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:29:17.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:50:09.318Z",
               "EditorCaption": ""
             }
           ]
