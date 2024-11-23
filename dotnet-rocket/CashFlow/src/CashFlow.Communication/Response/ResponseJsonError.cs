@@ -2,10 +2,15 @@ namespace CashFlow.Communication.Response;
 
 public class ResponseJsonError
 {
-    public string Error { get; set; } = string.Empty;
+    public List<string> Error { get; set; }
 
     public ResponseJsonError(string errorMessage)
     {
-        Error = errorMessage;
+        Error = new List<string>() { errorMessage };
+    }
+
+    public ResponseJsonError (List<string> errorMessages)
+    {
+        Error = errorMessages;
     }
 }
