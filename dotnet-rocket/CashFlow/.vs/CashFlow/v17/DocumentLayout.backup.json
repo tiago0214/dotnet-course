@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8BD33439-6F43-4A82-AA31-F35D971D9EF2}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\cashflow\\src\\cashflow.exception\\resourceerrormessages.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD33439-6F43-4A82-AA31-F35D971D9EF2}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\resourceerrormessages.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04B01031-7F24-4DB3-BAF4-E59968825FD2}|src\\CashFlow.API\\CashFlow.Api.csproj|c:\\users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\cashflow\\src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B01031-7F24-4DB3-BAF4-E59968825FD2}|src\\CashFlow.API\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResourceErrorMessages.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\ResourceErrorMessages.Designer.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\ResourceErrorMessages.Designer.cs",
+              "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\ResourceErrorMessages.Designer.cs",
+              "RelativeToolTip": "src\\CashFlow.Exception\\ResourceErrorMessages.Designer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:53:40.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ExceptionFilter.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\Filters\\ExceptionFilter.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.API\\Filters\\ExceptionFilter.cs",
               "ToolTip": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\Filters\\ExceptionFilter.cs",
               "RelativeToolTip": "src\\CashFlow.API\\Filters\\ExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T15:00:28.541Z",
               "EditorCaption": ""

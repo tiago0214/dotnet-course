@@ -36,7 +36,7 @@ namespace CashFlow.Exception {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Exception.ResourceErrorMessages", typeof(ResourceErrorMessages).Assembly);
@@ -51,7 +51,7 @@ namespace CashFlow.Exception {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,7 +61,43 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unkown error.
+        ///   Looks up a localized string similar to Amount must be greater than zero..
+        /// </summary>
+        public static string AMOUNT_ERROR {
+            get {
+                return ResourceManager.GetString("AMOUNT_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date can&apos;t be set in the future.
+        /// </summary>
+        public static string DATE_ERROR {
+            get {
+                return ResourceManager.GetString("DATE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment method is invalid..
+        /// </summary>
+        public static string PAYMENT_ERROR {
+            get {
+                return ResourceManager.GetString("PAYMENT_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The title is required..
+        /// </summary>
+        public static string TITLE_ERROR {
+            get {
+                return ResourceManager.GetString("TITLE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown error.
         /// </summary>
         public static string UNKNOWN_ERROR {
             get {
