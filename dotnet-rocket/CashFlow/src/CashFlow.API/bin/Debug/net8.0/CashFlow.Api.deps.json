@@ -109,6 +109,14 @@
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
+        },
+        "resources": {
+          "fr/CashFlow.Exception.resources.dll": {
+            "locale": "fr"
+          },
+          "pt-BR/CashFlow.Exception.resources.dll": {
+            "locale": "pt-BR"
+          }
         }
       },
       "CashFlow.Infrastructure/1.0.0": {

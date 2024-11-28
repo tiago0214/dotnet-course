@@ -10,3 +10,11 @@ C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\o
 C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\refint\CashFlow.Exception.dll
 C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.pdb
 C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\ref\CashFlow.Exception.dll
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.ResourceErrorMessages.resources
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.ResourceErrorMessages.fr.resources
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.ResourceErrorMessages.pt-BR.resources
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.csproj.GenerateResource.cache
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\fr\CashFlow.Exception.resources.dll
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
