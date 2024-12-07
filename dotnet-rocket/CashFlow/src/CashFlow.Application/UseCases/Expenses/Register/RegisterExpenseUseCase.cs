@@ -8,6 +8,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register;
 
 public class RegisterExpenseUseCase
 {
+
     public ResponseJsonRegisterExpense Execute(RequestJsonRegisterExpense request)
     {
         Validate(request);
@@ -16,7 +17,6 @@ public class RegisterExpenseUseCase
 
         var entity = new Expense
         {
-            Id = 24,
             Amount = request.Amount,
             Date = request.Date,
             Description = request.Description,
