@@ -14,4 +14,4 @@ internal class ExpensesReposiroty : IExpensesRepository
         dbContext.SaveChanges();
     }
 }
-    
+        
