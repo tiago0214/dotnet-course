@@ -1,0 +1,6 @@
+@AprendizadoSobreTasks_HostAddress = http://localhost:5168
+
+GET {{AprendizadoSobreTasks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

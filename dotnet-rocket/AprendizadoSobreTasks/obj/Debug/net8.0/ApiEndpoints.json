@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "AprendizadoSobreTasks.Controllers.TasksController",
+    "Method": "Tasks",
+    "RelativePath": "api/Tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
