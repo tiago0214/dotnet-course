@@ -21,5 +21,8 @@ public class AutoMaping : Profile
     private void EntityToResponse() 
     {
         CreateMap<Expense, ResponseJsonRegisterExpense>();
+        CreateMap<Expense, ShortExpenseResponseJson>();
+        CreateMap<Expense, ResponseJsonExpense>();
     }
 }
+    
