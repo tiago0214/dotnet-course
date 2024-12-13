@@ -79,6 +79,15 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Id not found.
+        /// </summary>
+        public static string NOT_FOUND {
+            get {
+                return ResourceManager.GetString("NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Payment method is invalid..
         /// </summary>
         public static string PAYMENT_ERROR {

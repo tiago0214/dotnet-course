@@ -123,6 +123,9 @@
   <data name="DATE_ERROR" xml:space="preserve">
     <value>La date ne peut pas être définie dans le futur</value>
   </data>
+  <data name="NOT_FOUND" xml:space="preserve">
+    <value>Je n'ai pas trouvé</value>
+  </data>
   <data name="PAYMENT_ERROR" xml:space="preserve">
     <value>Le mode de paiement n'est pas valide.</value>
   </data>
