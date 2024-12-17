@@ -169,5 +169,26 @@
         "StatusCode": 404
       }
     ]
+  },
+  {
+    "ContainingType": "CashFlow.Api.Controllers.ReportController",
+    "Method": "GetExcel",
+    "RelativePath": "api/Report/excel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
   }
 ]

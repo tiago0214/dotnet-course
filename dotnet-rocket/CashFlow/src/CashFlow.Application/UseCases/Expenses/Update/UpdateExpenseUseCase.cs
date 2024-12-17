@@ -29,6 +29,8 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
         if (expense == null)
             throw new NotFoundException(ResourceErrorMessages.NOT_FOUND);
 
+        _mapper.Map(request, expense);
+
         _repository.Update(expense);
 
         await _unityOfWork.Commit();
