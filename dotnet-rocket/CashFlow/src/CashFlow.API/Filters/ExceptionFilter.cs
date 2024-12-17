@@ -24,25 +24,13 @@ public class ExceptionFilter : IExceptionFilter
 
     private void HandleProjectException(ExceptionContext context)
     {
-        if (context.Exception is ErrorOnValidationException errorOnValidation)
-        {
-            var errorResponse = new ResponseJsonError(errorOnValidation.Errors);
+        var cashFlowException = (CashFlowException)context.Exception;
 
-            context.Result = new BadRequestObjectResult(errorResponse);
-        }
-        else if(context.Exception is NotFoundException notFound)
-        {
-            var errorResponse = new ResponseJsonError(notFound.Message);
+        context.HttpContext.Response.StatusCode = cashFlowException.StatusCode;
 
-            context.Result = new NotFoundObjectResult(errorResponse);
-        }
-        else
-        {
-            var errorResponse = new ResponseJsonError(context.Exception.Message);
-            context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
+        var errorResponse = new ResponseJsonError(cashFlowException.GetErrors());
 
-            context.Result = new BadRequestObjectResult(errorResponse);
-        }
+        context.Result = new ObjectResult(errorResponse);
     }
 
     private void ThrowUnkownError(ExceptionContext context) 
