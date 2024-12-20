@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AprendizadoSobreTasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc4c24c90b7540893761ccf55ad7dcbb1558e7b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bca7acb7054d7417770b765b947a588685b57606")]
 [assembly: System.Reflection.AssemblyProductAttribute("AprendizadoSobreTasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AprendizadoSobreTasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
