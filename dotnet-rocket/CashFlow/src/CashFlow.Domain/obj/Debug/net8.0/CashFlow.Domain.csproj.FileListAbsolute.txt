@@ -15,3 +15,4 @@ C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Domain\obj\
 C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Reports.ResourceReportGenerationMessages.pt-BR.resources
 C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.GenerateResource.cache
 C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+C:\Users\tiago\dev\dotnet-course\dotnet-rocket\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.cs
