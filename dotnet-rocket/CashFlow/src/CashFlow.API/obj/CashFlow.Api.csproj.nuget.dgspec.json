@@ -1,45 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\CashFlow.Api.csproj": {}
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.API/CashFlow.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\CashFlow.Api.csproj": {
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.API/CashFlow.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\CashFlow.Api.csproj",
+        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.API/CashFlow.Api.csproj",
         "projectName": "CashFlow.Api",
-        "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\CashFlow.Api.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.API\\obj\\",
+        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.API/CashFlow.Api.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
               },
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
               },
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -48,11 +45,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,46 +75,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
         "projectName": "CashFlow.Application",
-        "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Application\\obj\\",
+        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
               },
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
               },
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -131,11 +120,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -175,29 +159,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
+        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "projectName": "CashFlow.Communication",
-        "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Communication\\obj\\",
+        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -210,11 +191,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -236,29 +212,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
         "projectName": "CashFlow.Domain",
-        "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\obj\\",
+        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -271,11 +244,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -297,29 +265,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
         "projectName": "CashFlow.Exception",
-        "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Exception\\obj\\",
+        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -332,11 +297,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -358,37 +318,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
+    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
         "projectName": "CashFlow.Infrastructure",
-        "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Infrastructure\\obj\\",
+        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\tiago\\dev\\dotnet-course\\dotnet-rocket\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
               }
             }
           }
@@ -397,11 +354,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -433,7 +385,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
