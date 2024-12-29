@@ -740,11 +740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+      "projectUniqueName": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
       "projectName": "CashFlow.Infrastructure",
-      "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+      "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
       "packagesPath": "/home/tiago/.nuget/packages/",
-      "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/obj/",
+      "outputPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tiago/.nuget/NuGet/NuGet.Config"
@@ -759,8 +759,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
-              "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+            "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+              "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
             }
           }
         }

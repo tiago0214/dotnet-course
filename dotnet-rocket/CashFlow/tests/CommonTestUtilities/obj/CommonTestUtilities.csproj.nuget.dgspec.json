@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj": {}
+    "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj": {}
   },
   "projects": {
-    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+    "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectUniqueName": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "projectName": "CashFlow.Communication",
-        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "packagesPath": "/home/tiago/.nuget/packages/",
-        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/obj/",
+        "outputPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tiago/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj": {
+    "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+        "projectUniqueName": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
         "projectName": "CommonTestUtilities",
-        "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+        "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
         "packagesPath": "/home/tiago/.nuget/packages/",
-        "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/obj/",
+        "outputPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tiago/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-                "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               }
             }
           }

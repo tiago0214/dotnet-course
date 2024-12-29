@@ -1305,11 +1305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+      "projectUniqueName": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
       "projectName": "CashFlow.Application",
-      "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+      "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
       "packagesPath": "/home/tiago/.nuget/packages/",
-      "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/obj/",
+      "outputPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tiago/.nuget/NuGet/NuGet.Config"
@@ -1324,17 +1324,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
-              "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+            "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+              "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
             },
-            "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
-              "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+            "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+              "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
             },
-            "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
-              "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+            "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+              "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
             },
-            "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
-              "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+            "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+              "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
             }
           }
         }

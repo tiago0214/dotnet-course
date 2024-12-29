@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+      "projectUniqueName": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
       "projectName": "CashFlow.Exception",
-      "projectPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+      "projectPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
       "packagesPath": "/home/tiago/.nuget/packages/",
-      "outputPath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/obj/",
+      "outputPath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Exception/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tiago/.nuget/NuGet/NuGet.Config"

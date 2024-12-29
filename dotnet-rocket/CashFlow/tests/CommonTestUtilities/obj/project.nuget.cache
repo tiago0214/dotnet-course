@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zShw0SU3j2E=",
+  "dgSpecHash": "Ls5CI/DM9fs=",
   "success": true,
-  "projectFilePath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+  "projectFilePath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
   "expectedPackageFiles": [
     "/home/tiago/.nuget/packages/bogus/35.6.1/bogus.35.6.1.nupkg.sha512"
   ],

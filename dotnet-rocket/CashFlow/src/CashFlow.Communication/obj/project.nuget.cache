@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tGOGwV6XOkM=",
+  "dgSpecHash": "BZKciguaNRA=",
   "success": true,
-  "projectFilePath": "/home/tiago/Dev/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+  "projectFilePath": "/home/tiago/Projects/dotnet-course/dotnet-rocket/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
